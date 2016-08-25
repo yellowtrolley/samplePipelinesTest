@@ -18,7 +18,7 @@ jobs:
     type: deploy
     steps:
       - IN: dv-man
-      - IN: dv-params
+#      - IN: dv-params
       - IN: env-test-ecs
       - TASK: managed
 

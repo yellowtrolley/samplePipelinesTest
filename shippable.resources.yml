@@ -9,7 +9,7 @@ resources:
     type: image
     integration: dh-manishas
     pointer:
-      sourceName: "aye0aye/dv"
+      sourceName: "manishas/samplepipelinesdemo"
       isPull: false
     seed:
       versionName: master.latest
@@ -25,11 +25,11 @@ resources:
       publishAllPorts : true
 
 # env vars for VISUALIZER
-  - name: dv-params
-    type: params
-    version:
-      params:
-        MONGO_API_URL: "https://api.mlab.com/api/1/databases/box-pipev2/collections/boxes?apiKey=QRsFUOV7XbNdHfTnJ7KU9bgQdnun-m_I"
+#  - name: dv-params
+#    type: params
+#    version:
+#      params:
+#        MONGO_API_URL: "https://api.mlab.com/api/1/databases/box-pipev2/collections/boxes?apiKey=QRsFUOV7XbNdHfTnJ7KU9bgQdnun-m_I"
 
 # add TEST env - AWS cluster
   - name: env-test-ecs
