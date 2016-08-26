@@ -11,8 +11,9 @@ resources:
     pointer:
       sourceName: "manishas/samplepipelinesdemo"
       isPull: false
+    #make sure this seed version exists in your registry account
     seed:
-      versionName: master.latest
+      versionName: master.1
 
 # Docker Image Options for VISUALIZER
   - name: dv-img-opts
