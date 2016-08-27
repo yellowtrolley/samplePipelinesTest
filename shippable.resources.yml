@@ -9,7 +9,7 @@ resources:
     type: image
     integration: dh-manishas
     pointer:
-      sourceName: "manishas/samplepipelinesdemo"
+      sourceName: "shippableSamples/samplepipelinesdemo"
       isPull: false
     #make sure this seed version exists in your registry account
     seed:
