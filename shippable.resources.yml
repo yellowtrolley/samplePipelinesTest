@@ -7,13 +7,13 @@ resources:
 # Docker Image for VISUALIZER
   - name: dv-img
     type: image
-    integration: dh-manishas
+    integration: dockerdeploy
     pointer:
-      sourceName: "shippableSamples/samplepipelinesdemo"
+      sourceName: "biofairtrade/samplepipelinesdemo"
       isPull: false
     #make sure this seed version exists in your registry account
     seed:
-      versionName: master.1
+      versionName: master.5
 
 # Docker Image Options for VISUALIZER
   - name: dv-img-opts
