@@ -35,7 +35,7 @@ resources:
 # add TEST env - AWS cluster
   - name: env-test-ecs
     type: cluster
-    integration: dockerdeploy
+    integration: awsintegration
     pointer:
       sourceName : "awsintegration"
       region: "us-west-2"
