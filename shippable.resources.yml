@@ -35,7 +35,7 @@ resources:
 # add TEST env - AWS cluster
   - name: env-test-ecs
     type: cluster
-    integration: demo-manishas-ecs
+    integration: dockerdeploy
     pointer:
       sourceName : "awsintegration"
       region: "us-west-2"
