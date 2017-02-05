@@ -37,7 +37,7 @@ resources:
     type: cluster
     integration: demo-manishas-ecs
     pointer:
-      sourceName : "demo-shippable-ecs-test"
-      region: "us-east-1"
+      sourceName : "awsintegration"
+      region: "us-west-2"
 
 #######1: EOF Create DV pipeline
